@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="libs/p5.min.js"></script>
+        <script src="math/math.js"></script>
+        <script src="math/vector.js"></script>
+        <script src="math/physics.js"></script>
+        <script src="simulation.js"></script>
+        <script src="genetic.js"></script>
+        <script src="neural_net.js"></script>
+        <script src="transformation.js"></script>
+        <script src="game/bullet.js"></script>
+        <script src="game/asteroid.js"></script>
+        <script src="game/ship.js"></script>
+        <script src="game/galaxy.js"></script>
+        <script src="sketch.js"></script>
+        <style>
+            canvas {
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div style="font-size: 20px;">Generation: <span id="generation"></span></div>
+            <div style="font-size: 20px;">Alive: <span id="aliveGalaxies"></span></div>
+            <div style="word-wrap: break-word; font-size: 20px;">Best's weights: <span id="weights"></span></div>
+        </div>
+    </body>
+</html>
